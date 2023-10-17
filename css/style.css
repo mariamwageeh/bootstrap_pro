@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel{
+margin-top: 50px;
+}
+.icon-left{
+    position: fixed;
+    right: 0;
+    z-index: 25;
+    font-size: 40px;
+    margin-top: 150px;
+    background-color: aliceblue;
+}
+.translate{
+    margin-left: 50px;
+    border: 2px solid saddlebrown;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+}
+.btn-translate{
+    margin: 10px 0px;
+}
+.image{
+    background-image: url("../images/fast-food-menu-pic.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    width: 100%;
+    height: 400px;
+    margin: 100px 0px;
+}
+.image2{
+    background-image: url("../images/fast-food-menu-pic.webp");
+    background-position: bottom center;
+}
+/* .pro{
+    margin: 200px 0px;
+}
+.p1{
+    margin-top: -1px;
+} */
+/* .cc{
+    margin-right: 60px;
+} */
+.c1{
+    position: relative;
+    /* margin-left: 70px; */
+    margin-top: 50px;
+}
+.c1 img{
+    margin: auto;
+}
+/* .cc{
+    margin-left: 180px;
+} */
+.c1:after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgb(172, 172, 241);
+}
+.c1:before{
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    bottom: 0px;
+    right: 0;
+    opacity: 0;
+   background-color: rgb(154, 154, 227);
+  
+}
+.c1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 3s;
+}
+.c1:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 3s;
+}
+.card-work{
+
+    position: relative;
+margin-bottom: 30px;
+}
+
+.card-work img{
+    margin-left: -11px;
+    margin: auto;
+    
+}
+.work{
+    margin-bottom: 100px;
+   
+}
+.card-work:hover{
+/* width: 280px; */
+height: 280px;
+}
+.card-title2{
+    margin-top: 80px;
+}
+.worker-img{
+    margin-top: 90px;
+}
+.pa{
+    margin-left: -11px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.pa:hover{
+    background-color: rgba(107, 125, 227, 0.3);
+}
+/* .image-q{
+    margin-right: -3px;
+} */
+.social{
+margin: auto;
+width: 95%;
+}
+.line{
+    width: 90px;
+    border: 3px solid blue;
+    margin: 30px 0px;
+}
+.line:hover{
+    width: 200px;
+    transition: 2s;
+}
+
+.content{
+    margin: 50px 0px;
+}
+.join{
+    margin-top: 450px;
+    margin-left: 20px;
+}
+.icon{
+    font-size: 40px;
+}
+.social-h4 ,.social-p{
+    margin-top: 20px;
+}
+.frist{
+   
+    margin-bottom: 90px;
+    margin-top: 80px;
+}
+.footer{
+    margin: auto;
+    width: 95%;
+}
+
+.links{
+color: white;
+text-decoration: none;
+}
+.links:hover{
+color: blue;
+}
+.image-q img{
+width: 200px;
+height: 300px;
+margin-right: 20px;
+}
+.content{
+    overflow-y: scroll;
+}
+@media (max-width:567px){
+    .content{
+        height: auto;
+       flex-flow: column;
+    }
+    .image-q img{
+        
+ width: 100%;
+    } 
+.product1{
+flex-flow: column;
+}
+.cards{
+flex-flow: column;
+}
+}
